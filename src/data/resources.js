@@ -1,0 +1,48 @@
+const resources = [
+  {
+    id: 1,
+    title: 'Manual Wheelchair',
+    category: 'Mobility Aids',
+    location: 'Mysuru, Karnataka',
+    condition: 'Good condition',
+    image: "https://up.yimg.com/ib/th/id/OIP.QMsvfUlx55s-lBjyQLs6HQHaHa?pid=Api&rs=1&c=1&qlt=95&w=119&h=119https://up.yimg.com/ib/th/id/OIP.KTYY1YgtRSKsgJrAO_yIyQHaG0?pid=Api&rs=1&c=1&qlt=95&w=130&h=119",
+    description: 'A comfortable wheelchair available for temporary borrowing.',
+    owner: 'Priya S.',
+    available: true,
+  },
+  {
+    id: 2,
+    title: 'Engineering Textbooks',
+    category: 'Education',
+    location: 'Bengaluru, Karnataka',
+    condition: 'Like new',
+    image: 'https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=600&q=80',
+    description: 'Engineering textbooks for students who need study materials.',
+    owner: 'Rahul M.',
+    available: true,
+  },
+  {
+    id: 3,
+    title: 'Study Table',
+    category: 'Furniture',
+    location: 'Mandya, Karnataka',
+    condition: 'Used - good',
+    image: 'https://images.unsplash.com/photo-1499933374294-4584851497cc?auto=format&fit=crop&w=600&q=80',
+    description: 'A sturdy study table suitable for students.',
+    owner: 'Ananya R.',
+    available: true,
+  },
+  {
+    id: 4,
+    title: 'Walking Crutches',
+    category: 'Mobility Aids',
+    location: 'Mysuru, Karnataka',
+    condition: 'Good condition',
+    image: 'https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=600&q=80',
+    description: 'Adjustable crutches available for short-term assistance.',
+    owner: 'Community Care NGO',
+    available: true,
+  },
+]
+
+export default resources
